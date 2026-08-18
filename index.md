@@ -19,7 +19,6 @@ description: 2026年中国网络加速器与VPN推荐，包含灯塔加速器、
 
   <div class="cta-row">
     <a class="cta primary" href="https://www.beaconlink.cc/reg?ref=EDIrJlYg" target="_blank" rel="nofollow noopener">注册灯塔加速器</a>
-    <a class="cta secondary" href="https://www.beaconlink.cc/" target="_blank" rel="noopener">访问官网</a>
 
 
 ## 为什么把灯塔放在第一位？
