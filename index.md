@@ -213,7 +213,6 @@ PureVPN 同样属于运营时间较长的国际 VPN 产品，更偏向全球 VPN
   <h2>灯塔加速器 BeaconLink</h2>
   <p>官网：<a href="https://www.beaconlink.cc/" target="_blank" rel="noopener">https://www.beaconlink.cc/</a></p>
   <p>活动注册地址：<a href="https://www.beaconlink.cc/reg?ref=EDIrJlYg" target="_blank" rel="nofollow noopener">https://www.beaconlink.cc/reg?ref=EDIrJlYg</a></p>
-  <p>邀请码：<code>RWJE9N</code></p>
 </div>
 
 > 提醒：网络服务的实际体验会受到地区、运营商、设备和时间等因素影响。请遵守所在地法律法规以及所访问平台的服务条款。
