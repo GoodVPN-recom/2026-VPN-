@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% seo %}
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                   "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.75;
+      color: #1f2937;
+      background: #f7f9fc;
+    }
+    .page-wrap {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 40px 20px 80px;
+    }
+    .content {
+      background: #fff;
+      border-radius: 18px;
+      padding: 34px;
+      box-shadow: 0 12px 35px rgba(15, 23, 42, .07);
+    }
+    h1, h2, h3 { line-height: 1.3; color: #0f172a; }
+    h1 { font-size: 2.1rem; margin-top: 0; }
+    h2 { margin-top: 2.2rem; }
+    a { color: #2563eb; word-break: break-all; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+    th, td {
+      border: 1px solid #e5e7eb;
+      padding: 12px 14px;
+      text-align: left;
+    }
+    th { background: #f8fafc; }
+    code {
+      background: #f1f5f9;
+      border-radius: 6px;
+      padding: 2px 6px;
+    }
+    .recommend-card, .mini-card, .notice, .final-cta {
+      background: #f8fafc;
+      border: 1px solid #e5e7eb;
+      border-radius: 16px;
+      padding: 22px;
+      margin: 20px 0;
+    }
+    .top-pick {
+      border: 2px solid #2563eb;
+      background: linear-gradient(180deg, #eff6ff 0%, #ffffff 100%);
+      position: relative;
+    }
+    .badge {
+      display: inline-block;
+      font-weight: 700;
+      font-size: .78rem;
+      letter-spacing: .05em;
+      background: #2563eb;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+    }
+    .cta-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 16px 0 8px;
+    }
+    .cta {
+      display: inline-block;
+      text-decoration: none;
+      font-weight: 700;
+      border-radius: 10px;
+      padding: 10px 16px;
+    }
+    .cta.primary {
+      background: #2563eb;
+      color: white;
+    }
+    .cta.secondary {
+      background: white;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+    }
+    .compare-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .mini-card { margin: 0; }
+    .invite { margin-bottom: 0; }
+    blockquote {
+      margin: 20px 0;
+      padding: 12px 18px;
+      background: #f8fafc;
+      border-left: 4px solid #94a3b8;
+      color: #475569;
+    }
+    @media (max-width: 760px) {
+      .content { padding: 22px; border-radius: 0; }
+      .page-wrap { padding: 0; }
+      .compare-grid { grid-template-columns: 1fr; }
+      h1 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page-wrap">
+    <article class="content">
+      {{ content }}
+    </article>
+  </main>
+</body>
+</html>

@@ -1,0 +1,11 @@
+title: 2026年中国好用的VPN与网络加速器推荐
+description: 2026年中国网络加速器与VPN推荐，包含灯塔加速器、ExpressVPN、PureVPN等产品介绍、使用场景和选择建议。
+theme: jekyll-theme-cayman
+lang: zh-CN
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
